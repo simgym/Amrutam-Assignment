@@ -14,9 +14,9 @@ function App() {
       children: [
         {
           index: true,
-          element: <Page1 />,
+          element: <Page2 />,
         },
-        { path: "/page2", element: <Page2 /> },
+        { path: "/page2", element: <Page1 /> },
       ],
     },
   ]);
