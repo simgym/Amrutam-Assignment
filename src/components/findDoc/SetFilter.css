@@ -1,0 +1,23 @@
+.setFilter-wrapper {
+  border-bottom: 1px solid #ededed;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+.setFilter-wrapper select {
+  width: 147px;
+  height: 40px;
+  border-radius: 7px;
+  padding: 6px 13px 6px 13px;
+  background-color: #f3f3f3;
+  color: #585858;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.setFilter-wrapper select[data-key="All filters"] {
+  background-color: #dceedc;
+  color: #3a643b;
+}

@@ -1,0 +1,9 @@
+.all-cards-wrapper {
+  width: 81%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 3%;
+}
+.background-page2 {
+  width: 100%;
+}
